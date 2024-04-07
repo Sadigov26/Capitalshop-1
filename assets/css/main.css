@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerFirst {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  border-bottom: 1px solid rgb(223, 220, 220);
+}
+
+.firstNav {
+  display: flex;
+  height: 40px;
+  gap: 25px;
+  padding: 15px;
+  color: #74706B;
+  font-size: 14px;
+}
+
+.firstIcons {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.firstIcons a:hover i {
+  transform: scaleX(-1);
+  transition: transform 0.3s;
+  color: orange;
+}
+
+.orderList {
+  display: flex;
+  justify-content: flex-end;
+  width: 61%;
+  align-items: center;
+  height: 40px;
+}
+
+header .headerTop .headerFirst ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+header .headerTop .headerFirst ul a {
+  text-decoration: none;
+  color: #74706B;
+  font-size: 14px;
+}
+
+.secondHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+}
+
+.logoImg {
+  display: flex;
+  justify-content: end;
+  width: 23%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 50px;
+  height: 110px;
+  font-weight: bold;
+  font-family: "jost";
+  font-size: 16px;
+}
+
+.new {
+  display: flex;
+}
+
+.dropp {
+  position: absolute;
+}
+.dropp li p {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 100px;
+}
+.dropp li {
+  margin-bottom: 120px;
+}
+
+.bascet {
+  position: relative;
+  display: flex;
+}
+
+.oneBascet {
+  position: absolute;
+}
+.oneBascet li p {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 70px;
+  margin: 24px;
+}
+.oneBascet li {
+  margin-bottom: 170px;
+}
+
+.ust {
+  position: relative;
+}
+
+.drop {
+  display: none;
+  position: absolute;
+}
+
+.drop li {
+  background-color: #f5dfdf;
+  display: block;
+  justify-content: start;
+  align-items: center;
+  padding: 19px;
+}
+
+.ust:hover .drop {
+  display: block;
+  flex-direction: column;
+  width: 145px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(238, 0, 0);
+  transition: 0.3s;
+}
+
+.icons {
+  display: flex;
+  justify-content: start;
+  gap: 35px;
+  align-items: center;
+  width: 21%;
+  height: 110px;
+  font-size: 26px;
+}
+
+.headerEnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+.headerEnd a p {
+  padding-left: 10px;
+}
+
+.headerEnd > p {
+  color: white;
+  font-family: "jost";
+}
+
+.headerEnd a p {
+  transition: color 1s, letter-spacing 1s;
+  color: #CEBD9C;
+  text-decoration: underline;
+  text-decoration: 3px offset;
+}
+
+.headerEnd a:hover p {
+  color: #CEBD9C;
+  letter-spacing: 2px;
+}
+
+#hero {
+  min-height: 100vh;
+  background: url("../../../assets/image/h1_hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .container {
+  width: 85%;
+  min-height: 600px;
+}
+#hero .container p {
+  text-align: center;
+  font-family: "jost";
+  color: #74706B;
+  font-size: 18px;
+  line-height: 29px;
+}
+#hero .container h1 {
+  font-family: "jost";
+  font-size: 50px;
+  line-height: 72PX;
+}
+#hero .container span {
+  color: rgb(210, 11, 14);
+  font-family: "Clicker Script";
+  font-size: 60px;
+}
+#hero .container button {
+  padding: 17px;
+  width: 25%;
+  background-color: #292621;
+  color: aliceblue;
+}
+#hero .container button:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 1s;
+}
+#hero .container .secDes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  width: 50%;
+  min-height: 100vh;
+  align-items: center;
+}
+
+#secondSection {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  padding-bottom: 95px;
+}
+.product div {
+  overflow: hidden;
+}
+
+.proDesk {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product img:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+#thereSec {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px;
+  border-bottom: 1px solid rgb(175, 174, 174);
+  width: 100%;
+}
+
+.thereHeaader {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.thereHeaader p {
+  font-size: 34px;
+  font-family: "jost";
+}
+.thereHeaader .thereTab a:hover {
+  border-bottom: 5px solid #EE0000;
+  padding-bottom: 15px;
+}
+
+.thereSecNav {
+  align-items: center;
+  display: flex;
+  height: 50px;
+}
+
+.thereProduct {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.thereProduct img:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.beforePrice {
+  text-decoration: line-through;
+  color: #D9CCB3;
+}
+
+#admin {
+  display: flex;
+  height: 430px;
+  justify-content: center;
+  background-color: #D9CCB3;
+  align-items: center;
+  width: 100%;
+}
+
+.desc {
+  width: 50%;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.desc h4 {
+  font-size: 38px;
+}
+.desc p {
+  font-size: 22px;
+}
+
+.admin {
+  display: flex;
+  gap: 20px;
+}
